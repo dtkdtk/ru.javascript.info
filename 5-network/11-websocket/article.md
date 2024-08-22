@@ -327,6 +327,7 @@ socket.onmessage = function(event) {
 4. Когда подключение закрыто: `clients.delete(socket)`.
 
 ```js
+const http = require('http');
 const ws = new require('ws');
 const wss = new ws.Server({noServer: true});
 
